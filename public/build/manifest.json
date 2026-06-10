@@ -1,0 +1,26 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-D9Djl1BR.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-NGK4tmJQ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pdfforge-hero-three.js"
+    ]
+  },
+  "resources/js/pdfforge-hero-three.js": {
+    "file": "assets/pdfforge-hero-three-C4nV4yWW.js",
+    "name": "pdfforge-hero-three",
+    "src": "resources/js/pdfforge-hero-three.js",
+    "isDynamicEntry": true
+  }
+}

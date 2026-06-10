@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360" role="img" aria-labelledby="t1">
+  <title id="t1">Before  misaligned annual report preview</title>
+  <defs>
+    <filter id="sh" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="360" fill="url(#bg)"/>
+  <g filter="url(#sh)" transform="rotate(-1.2 280 180)">
+    <rect x="72" y="40" width="416" height="280" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <rect x="96" y="64" width="180" height="8" rx="2" fill="#94a3b8" transform="skewX(-5)"/>
+    <rect x="96" y="84" width="240" height="8" rx="2" fill="#cbd5e1" transform="skewX(3)"/>
+    <text x="96" y="118" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.08em">DRAFT · ANNUAL REPORT</text>
+    <rect x="96" y="132" width="320" height="6" rx="2" fill="#e2e8f0"/>
+    <rect x="108" y="148" width="280" height="6" rx="2" fill="#e2e8f0" transform="skewX(-4)"/>
+    <rect x="96" y="172" width="300" height="6" rx="2" fill="#e2e8f0"/>
+    <rect x="96" y="210" width="140" height="36" rx="4" fill="#fecaca" opacity="0.85"/>
+    <rect x="280" y="200" width="120" height="100" rx="4" fill="#fde68a" opacity="0.5"/>
+    <rect x="96" y="268" width="200" height="5" rx="1" fill="#cbd5e1"/>
+    <rect x="96" y="282" width="160" height="5" rx="1" fill="#cbd5e1"/>
+  </g>
+</svg>

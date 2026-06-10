@@ -1,0 +1,678 @@
+[2026-04-11 11:35:39] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:37.876Z"} 
+[2026-04-11 11:35:39] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:37.881Z"} 
+[2026-04-11 11:35:39] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:38.021Z"} 
+[2026-04-11 11:35:39] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:38.022Z"} 
+[2026-04-11 11:35:39] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:38.027Z"} 
+[2026-04-11 11:35:39] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-DHR_Dciq.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:38.027Z"} 
+[2026-04-11 11:35:40] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:35:39.600Z"} 
+[2026-04-11 11:40:32] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.863Z"} 
+[2026-04-11 11:40:32] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.867Z"} 
+[2026-04-11 11:40:32] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.904Z"} 
+[2026-04-11 11:40:32] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.905Z"} 
+[2026-04-11 11:40:32] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.905Z"} 
+[2026-04-11 11:40:32] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:31.906Z"} 
+[2026-04-11 11:40:32] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:40:32.298Z"} 
+[2026-04-11 11:41:29] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.684Z"} 
+[2026-04-11 11:41:29] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.690Z"} 
+[2026-04-11 11:41:29] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.713Z"} 
+[2026-04-11 11:41:29] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.714Z"} 
+[2026-04-11 11:41:29] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.715Z"} 
+[2026-04-11 11:41:29] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:28.715Z"} 
+[2026-04-11 11:41:29] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:29.341Z"} 
+[2026-04-11 11:41:34] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.265Z"} 
+[2026-04-11 11:41:34] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.268Z"} 
+[2026-04-11 11:41:34] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.371Z"} 
+[2026-04-11 11:41:34] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.372Z"} 
+[2026-04-11 11:41:34] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.377Z"} 
+[2026-04-11 11:41:34] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.377Z"} 
+[2026-04-11 11:41:35] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:41:34.796Z"} 
+[2026-04-11 11:42:00] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.071Z"} 
+[2026-04-11 11:42:00] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.072Z"} 
+[2026-04-11 11:42:00] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.084Z"} 
+[2026-04-11 11:42:00] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.084Z"} 
+[2026-04-11 11:42:00] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.085Z"} 
+[2026-04-11 11:42:00] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.085Z"} 
+[2026-04-11 11:42:00] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:42:00.493Z"} 
+[2026-04-11 11:43:24] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.680Z"} 
+[2026-04-11 11:43:24] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.682Z"} 
+[2026-04-11 11:43:24] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.721Z"} 
+[2026-04-11 11:43:24] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.721Z"} 
+[2026-04-11 11:43:24] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.722Z"} 
+[2026-04-11 11:43:24] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:23.722Z"} 
+[2026-04-11 11:43:24] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:43:24.137Z"} 
+[2026-04-11 11:58:53] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 160 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:51.959Z"} 
+[2026-04-11 11:58:53] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 169 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:51.963Z"} 
+[2026-04-11 11:58:53] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:52.039Z"} 
+[2026-04-11 11:58:53] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:52.039Z"} 
+[2026-04-11 11:58:53] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:52.040Z"} 
+[2026-04-11 11:58:53] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:52.041Z"} 
+[2026-04-11 11:58:53] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T11:58:53.129Z"} 
+[2026-04-11 12:12:18] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.493Z"} 
+[2026-04-11 12:12:18] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.497Z"} 
+[2026-04-11 12:12:18] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.631Z"} 
+[2026-04-11 12:12:18] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.634Z"} 
+[2026-04-11 12:12:18] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.636Z"} 
+[2026-04-11 12:12:18] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:17.637Z"} 
+[2026-04-11 12:12:19] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:18.941Z"} 
+[2026-04-11 12:12:21] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.057Z"} 
+[2026-04-11 12:12:21] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.058Z"} 
+[2026-04-11 12:12:21] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.064Z"} 
+[2026-04-11 12:12:21] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.064Z"} 
+[2026-04-11 12:12:21] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.065Z"} 
+[2026-04-11 12:12:21] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.065Z"} 
+[2026-04-11 12:12:21] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:21.444Z"} 
+[2026-04-11 12:12:34] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.175Z"} 
+[2026-04-11 12:12:34] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.177Z"} 
+[2026-04-11 12:12:34] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.181Z"} 
+[2026-04-11 12:12:34] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.181Z"} 
+[2026-04-11 12:12:34] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.182Z"} 
+[2026-04-11 12:12:34] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.182Z"} 
+[2026-04-11 12:12:34] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:34.529Z"} 
+[2026-04-11 12:12:54] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.471Z"} 
+[2026-04-11 12:12:54] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.473Z"} 
+[2026-04-11 12:12:54] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.479Z"} 
+[2026-04-11 12:12:54] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.479Z"} 
+[2026-04-11 12:12:54] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.482Z"} 
+[2026-04-11 12:12:54] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.482Z"} 
+[2026-04-11 12:12:55] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:12:54.833Z"} 
+[2026-04-11 12:13:15] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.637Z"} 
+[2026-04-11 12:13:15] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.639Z"} 
+[2026-04-11 12:13:15] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.645Z"} 
+[2026-04-11 12:13:15] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.645Z"} 
+[2026-04-11 12:13:15] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.646Z"} 
+[2026-04-11 12:13:15] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:15.646Z"} 
+[2026-04-11 12:13:16] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:13:16.008Z"} 
+[2026-04-11 12:14:14] local.WARNING: Alpine Expression Error: Unexpected token ';'
+
+Expression: "{
+                    items: [{" null 179 null null {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.939Z"} 
+[2026-04-11 12:14:14] local.WARNING: Alpine Expression Error: items is not defined
+
+Expression: "items" null null idx false 188 idx null null   {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.941Z"} 
+[2026-04-11 12:14:14] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.946Z"} 
+[2026-04-11 12:14:14] local.ERROR: Uncaught SyntaxError: Unexpected token ';' http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 SyntaxError Unexpected token ';' SyntaxError: Unexpected token ';'
+    at new AsyncFunction (<anonymous>)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727
+    at Je (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:950)
+    at Ye (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:995)
+    at Ge (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:328)
+    at E (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:176)
+    at T (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:133)
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:35110)
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3037)
+    at ot (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:3064) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.946Z"} 
+[2026-04-11 12:14:14] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.947Z"} 
+[2026-04-11 12:14:14] local.ERROR: Uncaught ReferenceError: items is not defined http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js 5 27 ReferenceError items is not defined ReferenceError: items is not defined
+    at [Alpine] items (eval at <anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:727), <anonymous>:3:32)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:1141
+    at Ie (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:5223)
+    at Pi (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36389)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36204
+    at n (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18782)
+    at Object.ar [as effect] (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:18580)
+    at p (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:428)
+    at http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:1:539
+    at Function.<anonymous> (http://127.0.0.1:8001/build/assets/app-NGK4tmJQ.js:5:36198) {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:13.947Z"} 
+[2026-04-11 12:14:14] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:14:14.591Z"} 
+[2026-04-11 12:15:45] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:15:45.004Z"} 
+[2026-04-11 12:16:02] local.WARNING: THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. {"url":"http://127.0.0.1:8001/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36","timestamp":"2026-04-11T12:16:02.580Z"} 
