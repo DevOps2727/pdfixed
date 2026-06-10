@@ -85,4 +85,3 @@ If you change PHP code style:
 
 ```bash
 vendor/bin/pint --dirty
-```
